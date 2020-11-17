@@ -6,8 +6,8 @@ const SubModule = db.define('submodule', {
     type: Sequelize.INTEGER,
     allowNull: false,
   },
-  usergroup_id: {
-    type: Sequelize.INTEGER,
+  name: {
+    type: Sequelize.STRING,
     allowNull: false,
   },
 });

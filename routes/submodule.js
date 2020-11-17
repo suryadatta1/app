@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
 
     res.status(200).json(subModule);
   } catch (error) {
-    res.send(error);
+    res.json(error);
   }
 });
 
